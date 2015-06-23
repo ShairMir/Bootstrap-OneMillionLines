@@ -1,11 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
@@ -35,10 +33,10 @@
 
   <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -48,27 +46,27 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class=""><a href="#who">WHO WE ARE</a></li>
+            <li><a href="#who">WHO WE ARE</a></li>
             <li><a href="#get-involved">GET INVOLVED</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
-    </nav>
+    </div>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div id="jumbotron"class="jumbotron">
+    <div id="jumbotron" class="jumbotron">
       <div class="container">
         <h1>Our goal is to inspire <br>Tallahassee to write 1,000,000<br> lines of code_</h1>
         <p>All over the country people are taking the <strong>HOUR OF CODE</strong> challenge issued by <strong>CODE.org</strong>. Millions of lines of code are being written. In the capital of Florida, Tallahassee, the community is taking the challenge and our goal is to write 1,000,000 lines of code_</p>
-        <p><a class="btn btn-danger btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <p><a class="btn btn-danger btn-lg" role="button">Learn more &raquo;</a></p>
         <img src="images/code.png" title="Code.org Logo" alt="code.org">
       </div>
     </div>
     
     <div id="who">
       <div class="container homepage">
-        <img src="images/academy_brand_med.png" alt="MASSIVE Academy" title="Massive Academy">
-        <h2>Who we are</h2>
+        <img src="images/academy_brand_med.png" alt="MASSIVE Academy" title="MASSIVE Academy">
+        <h2>Who We are</h2>
         <hr>
         <p>We are <a href="http://www.massiveacademy.us" target="_blank">MASSIVE Academy</a>. We aim to improve education through both method - effective project-based learning - and material - by teaching skills that are applicable to improving your life today.</p>
       </div>
@@ -85,7 +83,7 @@
               <i class="fa fa-user fa-stack-1x fa-inverse"></i>
             </span>
             <h3>Students</h3>
-            <p>Want to learn how to code? Want to help us get to 1,000,000 lines</span>? Click the button below and we'll let you know how to get involved. </p>
+            <p>Want to learn how to code? Want to help us get to 1,000,000 lines? Click the button below and we'll let you know how to get involved.</p>
             <p><a class="btn btn-default" href="grid.html" role="button">Start Learning &raquo;</a></p>
           </div>
           <div class="col-md-4">
@@ -94,7 +92,7 @@
               <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
             </span>
             <h3>Educators</h3>
-            <p>Want to bring this initiative to your school or institution? Awesome!</span> Click the button below and we'll make it happen. </p>
+            <p>Want to bring this initiative to your school or institution? Awesome!</span> Click the button below and we'll make it happen.</p>
             <p><a class="btn btn-default" href="http://www.google.com" target="_blank" role="button">Join the Initiative &raquo;</a></p>
           </div>
           <div class="col-md-4">
@@ -112,18 +110,19 @@
  
     <footer>
       <div class="container">
-        <img src="images/one_million_bottom_brand.png">
+        <p><img src="images/one_million_bottom_brand.png"></p>
       </div>
-    </footer>
+      <div id="back-to-top">
+        <a href="#jumbotron"><i class="fa fa-chevron-circle-up fa-3x"></i></a>
+    </div>
+    </footer>    
     
-
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/smoothscroll.js"></script><br>
+    <script src="js/smoothscroll.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
