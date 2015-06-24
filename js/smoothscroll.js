@@ -48,3 +48,10 @@ $("#back-to-top a[href^='#']").on('click', function(e) {
        window.location.hash = hash;
      });
 });
+
+// A fix for the youtube video inside the modal, 
+// that wouldn't stop playing after being dismissed.
+
+$("#myModal").on('hidden.bs.modal', function (e) {
+    $("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));
+});
